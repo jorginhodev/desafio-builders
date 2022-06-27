@@ -1,6 +1,11 @@
+import { GlobalStyle } from "./styles/global"
+
 function App() {
   return (
-    <h1>Hello Vite</h1>
+    <>
+      <GlobalStyle />
+      <h1>Hello Vite</h1>
+    </>
   )
 }
 
